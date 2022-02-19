@@ -1,0 +1,38 @@
+div.container {
+  margin: 8px 0px;
+  @import "./variables.scss";
+  a {
+    text-decoration: none;
+  }
+
+  div.wrapper {
+    padding: 2px;
+    justify-content: center;
+    div {
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 5px;
+      font-size: 10px;
+    }
+  }
+  .card-img {
+    align-self: center;
+    background-color: white;
+    padding: 1px;
+    height: 15vh;
+    width: 100%;
+    object-fit: contain;
+  }
+  .pokemon-type {
+    @import "./type.scss";
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0px auto;
+    width: 85%;
+  }
+}
+
+nav.pagination {
+  justify-content: center;
+}
